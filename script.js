@@ -1,3 +1,4 @@
+showData();
 function saveData(){
     let myname = document.getElementById("name").value;
     let email = document.getElementById("email").value;
