@@ -22,6 +22,7 @@ function saveData(){
         localStorage.setItem("users",JSON.stringify(user_records));
 
     }
+    showData();
 }
 
 function showData(){
@@ -38,4 +39,3 @@ function showData(){
     }
     
 }
-showData();
